@@ -27,7 +27,7 @@ public class WordCRUD implements ICRUD{
 	public void addWord() {
 		Word one = (Word)add();
 		list.add(one);
-		System.out.print("새 단어가 단어장에 추가되었습니다.\n");
+		System.out.print("\n새 단어가 단어장에 추가되었습니다.\n\n");
 	}
  
 	@Override
