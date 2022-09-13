@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WordManager {
 	
 	Scanner s = new Scanner(System.in);
-	WordCRUD wordCRUD;
+	WordCRUD wordCRUD;   
 
 	public int selectMenu() {
 		System.out.print("*** 영단어 마스터 ***\n\n"
