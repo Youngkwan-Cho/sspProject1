@@ -20,7 +20,7 @@ public class Word {
 	public void setId(int id) {
 		this.id = id;
 	}
-
+   
 	public int getLevel() {
 		return level;
 	}
