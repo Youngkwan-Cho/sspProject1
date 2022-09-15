@@ -35,16 +35,12 @@ public class WordManager {
 				System.out.print("\n프로그램 종료! 다음에 만나요~\n");
 				break;
 			}
-			else if (menu==1) {
-				wordCRUD.listAll();
-			}
+			else if (menu==1) wordCRUD.listAll();
 			//else if (menu==2)   ;
 			//else if (menu==3)   ; 
-			else if (menu==4) {
-				wordCRUD.addWord();				
-			}
-			//else if (menu==5)   ;
-			//else if (menu==6)   ;
+			else if (menu==4) wordCRUD.addWord();				
+			else if (menu==5) wordCRUD.editWord();
+			else if (menu==6) wordCRUD.deleteWord();
 			//else if (menu==7)   ;
 			
 		}
