@@ -138,7 +138,7 @@ public class WordCRUD implements ICRUD{
 				String meaning = data[2];
 				list.add(new Word(0, level, word, meaning));
 				count++;
-			}
+			}			
 			br.close();
 			System.out.println("==> " + count + "개 로딩 완료!! ");
 		} catch (IOException e) {
